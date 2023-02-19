@@ -5,23 +5,52 @@
     text-align: center;
 };
 
+#priorityDisplayHeader {
+    background-color: #19b394;
+}
+
 #surveyContainer{
     background-color: black;
 }
 
-#resultsContainer {
+.mitigationContainer {
+    background-color: #fff;
+    border-radius: calc(0.5 * var(--base-unit, 8px));
+    box-sizing: border-box;
+    padding: 10px;
+    margin: 15px;
+    background: var(--background, #fff);
+    box-shadow: 0px 2px 3px rgb(0 0 0 / 15%);
+}
+
+#overallResultsContainer {
     background-color: #f3f3f3;
     font-family: "Open Sans", "Helvetica Neue", Helvetica, Arial, sans-serif;
-    padding: 2px;
+    padding: 30px;
+    text-align: center;
 }
 
 #recommendationsHeader {
     text-align: center;
-
 }
 
 #getResultsButton {
-    margin: 10px;
+    margin: auto;
+    background-color:#19b394;
+    color:#fff;
+    padding: calc(2 * var(--base-unit, 8px)) calc(6 * var(--base-unit, 8px));
+    box-shadow: 0px 1px 2px rgb(0 0 0 / 15%);
+    border-radius: calc(0.5 * var(--base-unit, 8px));
+    cursor: pointer;
+    font-family: var(--font-family);
+    font-style: normal;
+    font-weight: 600;
+    font-size: calc(2 * var(--base-unit, 8px));
+    line-height: calc(3 * var(--base-unit, 8px));
+    text-align: center;
+    border: 2px solid rgba(0,0,0,0);
+    outline: none;
+    width: 100%;
 }
 
 body {
