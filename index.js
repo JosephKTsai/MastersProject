@@ -86,6 +86,14 @@ const compromiseOfConfidentialInformation = {
         skillLevel: "Medium",
         skillLevelNumeric: "2"
     },
+    hardenedBrowserSettings: {
+        mitigationName: "Hardened browser settings",
+        mitigationDescription: "Ensuring that your browser is properly configured can prevent a variety of attacks. " + 
+        "Here are a couple videos that help explain this idea: <a href='https://www.youtube.com/watch?v=gSuVGCsedyk'> https://www.youtube.com/watch?v=gSuVGCsedyk </a>" + 
+        "and <a href='https://www.youtube.com/watch?v=tQhWdsFMc24'> https://www.youtube.com/watch?v=tQhWdsFMc24 </a>",
+        skillLevel: "Medium",
+        skillLevelNumeric: "2"
+    },
     wirelessNetworkSecurity: {
         mitigationName: "Setting up wireless networks securely",
         mitigationDescription: "Ensuring that malicious actors cannot gain access to your wireleness networks can prevent them from stealing " + 
