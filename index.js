@@ -9,7 +9,7 @@ const compromiseOfConfidentialInformation = {
         mitigationName: "Changing passwords after a precipitating event (e.g., passwords being leaked, data breach)",
         mitigationDescription: "If you've been involved in any kind of data breanch, it is " + 
             "important to change your passwords so that malicious actors can't access other accounts that use the same password. " + 
-            "Here is a video that helps explain this idea: <a href='https://www.youtube.com/watch?v=kJVrV2HT-s4'> https://www.youtube.com/watch?v=kJVrV2HT-s4 </a>",
+            "Here is a video that helps explain this idea: <a href='https://www.youtube.com/watch?v=kJVrV2HT-s4' target='_blank'> https://www.youtube.com/watch?v=kJVrV2HT-s4 </a>",
         skillLevel: "Low",
         skillLevelNumeric: "1"
     },
@@ -17,7 +17,7 @@ const compromiseOfConfidentialInformation = {
         mitigationName: "Two-Factor Authentication",
         mitigationDescription: "Two-Factor authentication requires that you have another way to verify who you are (not just passwords)." +
         "That way, if a malicious actor is able to obtain your password, they still can't log into your account. " + 
-        "Here is a video that helps explain this idea: <a href='https://www.youtube.com/watch?v=AMOtB7XkTT4'> https://www.youtube.com/watch?v=AMOtB7XkTT4 </a>",
+        "Here is a video that helps explain this idea: <a href='https://www.youtube.com/watch?v=AMOtB7XkTT4' target='_blank'> https://www.youtube.com/watch?v=AMOtB7XkTT4 </a>",
         skillLevel: "Medium",
         skillLevelNumeric: "2"
     }, 
@@ -25,7 +25,7 @@ const compromiseOfConfidentialInformation = {
         mitigationName: "Being educated on phishing emails",
         mitigationDescription: "Understanding how malicious actors might use email to get confidential information can protect you from" + 
         " falling victim to a phishing attack. " + 
-        "Here is a video that helps explain this idea: <a href='https://www.youtube.com/watch?v=Y7zNlEMDmI4'> https://www.youtube.com/watch?v=Y7zNlEMDmI4 </a>",
+        "Here is a video that helps explain this idea: <a href='https://www.youtube.com/watch?v=Y7zNlEMDmI4' target='_blank'> https://www.youtube.com/watch?v=Y7zNlEMDmI4 </a>",
         skillLevel: "Medium",
         skillLevelNumeric: "2"
     },
@@ -33,64 +33,64 @@ const compromiseOfConfidentialInformation = {
         mitigationName: "Making each password unique for every site",
         mitigationDescription: "Using unique passwords can prevent malicious actors from using compromised or stolen passwords to access your resources. " + 
         "If a password is stolen and found by a malicious actor, unique passwords will limit their access to only that service instead of other services that use the same password." + 
-        "Here is a video that helps explain this idea: <a href='https://www.youtube.com/watch?v=AJQ76iBh4IE'> https://www.youtube.com/watch?v=AJQ76iBh4IE </a>",
+        "Here is a video that helps explain this idea: <a href='https://www.youtube.com/watch?v=AJQ76iBh4IE' target='_blank'> https://www.youtube.com/watch?v=AJQ76iBh4IE </a>",
         skillLevel: "Medium",
         skillLevelNumeric: "2"
     },
     suspiciousLinks: {
         mitigationName: "Being educated on suspicious links",
         mitigationDescription: "Being aware of suspicious links can protect you from malicious websites. " + 
-        "Here is a video that helps explain this idea: <a href='https://www.youtube.com/watch?v=M5u3AtwmW4I'> https://www.youtube.com/watch?v=M5u3AtwmW4I </a>",
+        "Here is a video that helps explain this idea: <a href='https://www.youtube.com/watch?v=M5u3AtwmW4I' target='_blank'> https://www.youtube.com/watch?v=M5u3AtwmW4I </a>",
         skillLevel: "Medium",
         skillLevelNumeric: "2"
     },
     complexPasswords: {
         mitigationName: "Making passwords strong (i.e., long and complex)",
         mitigationDescription: "Making strong passwords makes it harder for malicious actors to guess what your passwords are. " + 
-        "Here is a video that helps explain this idea: <a href='https://www.youtube.com/watch?v=h_WZk-_TWh0'> https://www.youtube.com/watch?v=h_WZk-_TWh0 </a>",
+        "Here is a video that helps explain this idea: <a href='https://www.youtube.com/watch?v=h_WZk-_TWh0' target='_blank'> https://www.youtube.com/watch?v=h_WZk-_TWh0 </a>",
         skillLevel: "Medium",
         skillLevelNumeric: "2"
     },
     vpnUsage: {
         mitigationName: "Use a VPN (virtual private network) whenever using public WiFi (e.g., coffee shop, airport, hotel) at a minimum",
         mitigationDescription: "Virtual Private Networks prevent others from looking at your network traffic (including potentially confidential information), especially in public places. " + 
-        "Here is a video that helps explain this idea: <a href='https://www.youtube.com/watch?v=_wQTRMBAvzg'> https://www.youtube.com/watch?v=_wQTRMBAvzg </a>", 
+        "Here is a video that helps explain this idea: <a href='https://www.youtube.com/watch?v=_wQTRMBAvzg' target='_blank'> https://www.youtube.com/watch?v=_wQTRMBAvzg </a>", 
         skillLevel: "Medium",
         skillLevelNumeric: "2"
     },
     creditCardInformation: {
         mitigationName: "Being educated on the risk of storing credit card information online",
         mitigationDescription: "Minimizing the amount of sensitive information online can prevent malicious actors from getting access to your information. " + 
-        "Here is a video that helps explain this idea: <a href='https://youtu.be/-ni_PWxrsNo?t=168'> https://youtu.be/-ni_PWxrsNo?t=168 </a>",
+        "Here is a video that helps explain this idea: <a href='https://youtu.be/-ni_PWxrsNo?t=168' target='_blank'> https://youtu.be/-ni_PWxrsNo?t=168 </a>",
         skillLevel: "Low",
         skillLevelNumeric: "1"
     },
     socialEngineering: {
         mitigationName: "Being educated on social engineering techniques",
         mitigationDescription: "Understanding how malicious actors may use social techniques is important to stopping these kind of attacks. " + 
-        "Here is a video that helps explain this idea: <a href='https://www.youtube.com/watch?v=v7VTJhkJUUY'> https://www.youtube.com/watch?v=v7VTJhkJUUY </a>",
+        "Here is a video that helps explain this idea: <a href='https://www.youtube.com/watch?v=v7VTJhkJUUY' target='_blank'> https://www.youtube.com/watch?v=v7VTJhkJUUY </a>",
         skillLevel: "Medium",
         skillLevelNumeric: "2"
     },
     secureWifiConnections: {
         mitigationName: "Utilizing Secure Wi-Fi Connections",
         mitigationDescription: "Secure Wi-Fi connections can prevent malicious actors from seeing the data on those connections. " + 
-        "Here is a video that helps explain this idea: <a href='https://www.youtube.com/watch?v=SfFSxThtzhE'> https://www.youtube.com/watch?v=SfFSxThtzhE </a>",
+        "Here is a video that helps explain this idea: <a href='https://www.youtube.com/watch?v=SfFSxThtzhE' target='_blank'> https://www.youtube.com/watch?v=SfFSxThtzhE </a>",
         skillLevel: "Medium",
         skillLevelNumeric: "2"
     },
     userAccessControls: {
         mitigationName: "User access controls (i.e. having a separate admin account or differing levels of privilege on a device)",
         mitigationDescription: "Having separate accounts or differing privileges can prevent malicious actors from gaining total control over devices, should the situation ever occur. " + 
-        "Here is a video that gives an example of this mitigation in action: <a href='https://www.youtube.com/watch?v=45zM0mchZ3g'> https://www.youtube.com/watch?v=45zM0mchZ3g </a>",
+        "Here is a video that gives an example of this mitigation in action: <a href='https://www.youtube.com/watch?v=45zM0mchZ3g' target='_blank'> https://www.youtube.com/watch?v=45zM0mchZ3g </a>",
         skillLevel: "Medium",
         skillLevelNumeric: "2"
     },
     hardenedBrowserSettings: {
         mitigationName: "Hardened browser settings",
         mitigationDescription: "Ensuring that your browser is properly configured can prevent a variety of attacks. " + 
-        "Here are a couple videos that help explain this idea: <a href='https://www.youtube.com/watch?v=gSuVGCsedyk'> https://www.youtube.com/watch?v=gSuVGCsedyk </a>" + 
-        "and <a href='https://www.youtube.com/watch?v=tQhWdsFMc24'> https://www.youtube.com/watch?v=tQhWdsFMc24 </a>",
+        "Here are a couple videos that help explain this idea: <a href='https://www.youtube.com/watch?v=gSuVGCsedyk' target='_blank'> https://www.youtube.com/watch?v=gSuVGCsedyk </a>" + 
+        "and <a href='https://www.youtube.com/watch?v=tQhWdsFMc24' target='_blank'> https://www.youtube.com/watch?v=tQhWdsFMc24 </a>",
         skillLevel: "Medium",
         skillLevelNumeric: "2"
     },
@@ -98,21 +98,21 @@ const compromiseOfConfidentialInformation = {
         mitigationName: "Setting up wireless networks securely",
         mitigationDescription: "Ensuring that malicious actors cannot gain access to your wireleness networks can prevent them from stealing " + 
         "information you would like to remain confidential. " + 
-        "Here is a video that helps explain this idea: <a href='https://www.youtube.com/watch?v=i1ps2SCErTY'> https://www.youtube.com/watch?v=i1ps2SCErTY </a>",
+        "Here is a video that helps explain this idea: <a href='https://www.youtube.com/watch?v=i1ps2SCErTY' target='_blank'> https://www.youtube.com/watch?v=i1ps2SCErTY </a>",
         skillLevel: "Medium",
         skillLevelNumeric: "2"
     },
     antiMalware: {
         mitigationName: "Anti-malware software",
         mitigationDescription: "Anti-malware can help with identifying potentially malicious software on your devices. " + 
-        "Here is a video that helps explain this idea: <a href='https://www.youtube.com/watch?v=67-5bzc_GKE'> https://www.youtube.com/watch?v=67-5bzc_GKE </a>",
+        "Here is a video that helps explain this idea: <a href='https://www.youtube.com/watch?v=67-5bzc_GKE' target='_blank'> https://www.youtube.com/watch?v=67-5bzc_GKE </a>",
         skillLevel: "Medium",
         skillLevelNumeric: "2"
     },
     usingAFirewall: {
         mitigationName: "Using a Firewall",
         mitigationDescription: "Using a firewall can prevent malicious traffic from entering into your network. " + 
-        "Here is a video that helps explain this idea: <a href='https://www.youtube.com/watch?v=kDEX1HXybrU'> https://www.youtube.com/watch?v=kDEX1HXybrU </a>",
+        "Here is a video that helps explain this idea: <a href='https://www.youtube.com/watch?v=kDEX1HXybrU' target='_blank'> https://www.youtube.com/watch?v=kDEX1HXybrU </a>",
         skillLevel: "High",
         skillLevelNumeric: "3"
     },
@@ -120,7 +120,7 @@ const compromiseOfConfidentialInformation = {
         mitigationName: "Educating other users sharing the same information system",
         mitigationDescription: "It is important that all users of the same information system understand security, because " + 
         "if one user accidentally presents an opportunity for a malicious actor, it can impact all users of that system. " + 
-        "Here is a video that helps explain the importance of this idea: <a href='https://www.youtube.com/watch?v=zYfx4cdFCVA'> https://www.youtube.com/watch?v=zYfx4cdFCVA </a>",
+        "Here is a video that helps explain the importance of this idea: <a href='https://www.youtube.com/watch?v=zYfx4cdFCVA' target='_blank'> https://www.youtube.com/watch?v=zYfx4cdFCVA </a>",
         skillLevel: "Medium",
         skillLevelNumeric: "2"
     },
@@ -128,7 +128,7 @@ const compromiseOfConfidentialInformation = {
         mitigationName: "Camera Covers for Computing Devices",
         mitigationDescription: "Some malicious actors access users' webcams. A way to prevent confidential information from being recorded or taken is to " + 
         "leverage a camera cover. " + 
-        "Here is a video that helps explain this idea: <a href='https://www.youtube.com/watch?v=vMbHlax92rQ'> https://www.youtube.com/watch?v=vMbHlax92rQ </a>",
+        "Here is a video that helps explain this idea: <a href='https://www.youtube.com/watch?v=vMbHlax92rQ' target='_blank'> https://www.youtube.com/watch?v=vMbHlax92rQ </a>",
         skillLevel: "Low",
         skillLevelNumeric: "1"
     }
@@ -139,7 +139,7 @@ const fileAndDataLoss = {
     havingBackups: {
         mitigationName: "Having back-ups of important data and files",
         mitigationDescription: "Having back-ups is a way of copying your data in case it ever gets lost. " + 
-        "Here is a video that helps explain this idea: <a href='https://www.youtube.com/watch?v=FIL6L7f32Bs'> https://www.youtube.com/watch?v=FIL6L7f32Bs </a>",
+        "Here is a video that helps explain this idea: <a href='https://www.youtube.com/watch?v=FIL6L7f32Bs' target='_blank'> https://www.youtube.com/watch?v=FIL6L7f32Bs </a>",
         skillLevel: "Medium",
         skillLevelNumeric: "2"
     },
@@ -147,21 +147,21 @@ const fileAndDataLoss = {
         mitigationName: "Changing passwords after a precipitating event (e.g., passwords being leaked, data breach)",
         mitigationDescription: "If you've been involved in any kind of data breanch, it is " + 
             "important to change your passwords so that malicious actors can't access other accounts that use the same password. " + 
-            "Here is a video that helps explain this idea: <a href='https://www.youtube.com/watch?v=kJVrV2HT-s4'> https://www.youtube.com/watch?v=kJVrV2HT-s4 </a>",
+            "Here is a video that helps explain this idea: <a href='https://www.youtube.com/watch?v=kJVrV2HT-s4' target='_blank'> https://www.youtube.com/watch?v=kJVrV2HT-s4 </a>",
         skillLevel: "Low",
         skillLevelNumeric: "1"
     },
     encryptionAtRest: {
         mitigationName: "Encrypting data at rest",
         mitigationDescription: "If malicious actors cannot decrypt your data, then they will not be able to leverage it. " + 
-        "Here is a video that helps explain this idea: <a href='https://www.youtube.com/watch?v=cESHmIDBP2w'> https://www.youtube.com/watch?v=cESHmIDBP2w </a>",
+        "Here is a video that helps explain this idea: <a href='https://www.youtube.com/watch?v=cESHmIDBP2w' target='_blank'> https://www.youtube.com/watch?v=cESHmIDBP2w </a>",
         skillLevel: "High",
         skillLevelNumeric: "3"
     },
     suspiciousLinks: {
         mitigationName: "Being educated on suspicious links",
         mitigationDescription: "Being aware of suspicious links can protect you from malicious websites. " + 
-        "Here is a video that helps explain this idea: <a href='https://www.youtube.com/watch?v=M5u3AtwmW4I'> https://www.youtube.com/watch?v=M5u3AtwmW4I </a>",
+        "Here is a video that helps explain this idea: <a href='https://www.youtube.com/watch?v=M5u3AtwmW4I' target='_blank'> https://www.youtube.com/watch?v=M5u3AtwmW4I </a>",
         skillLevel: "Medium",
         skillLevelNumeric: "2"
     },
@@ -169,14 +169,14 @@ const fileAndDataLoss = {
         mitigationName: "Being educated on phishing emails",
         mitigationDescription: "Understanding how malicious actors might use email to get confidential information can protect you from" + 
         " falling victim to a phishing attack. " + 
-        "Here is a video that helps explain this idea: <a href='https://www.youtube.com/watch?v=Y7zNlEMDmI4'> https://www.youtube.com/watch?v=Y7zNlEMDmI4 </a>",
+        "Here is a video that helps explain this idea: <a href='https://www.youtube.com/watch?v=Y7zNlEMDmI4' target='_blank'> https://www.youtube.com/watch?v=Y7zNlEMDmI4 </a>",
         skillLevel: "Medium",
         skillLevelNumeric: "2"
     },
     autoBackup: {
         mitigationName: "Automated data back-up solutions",
         mitigationDescription: "Automating data back-ups can help ensure that backups are up-to-date, should they need using. " +
-        "Here is an article that helps explain this idea: <a href='https://www.acronis.com/en-us/blog/posts/auto-backup/#:~:text=Auto%20backups%20can%20save%20you,work%20or%20on%20a%20trip.'> https://www.acronis.com/en-us/blog/posts/auto-backup/#:~:text=Auto%20backups%20can%20save%20you,work%20or%20on%20a%20trip. </a>",
+        "Here is an article that helps explain this idea: <a href='https://www.acronis.com/en-us/blog/posts/auto-backup/#:~:text=Auto%20backups%20can%20save%20you,work%20or%20on%20a%20trip.' target='_blank'> https://www.acronis.com/en-us/blog/posts/auto-backup/#:~:text=Auto%20backups%20can%20save%20you,work%20or%20on%20a%20trip. </a>",
         skillLevel: "Medium",
         skillLevelNumeric: "2"
     },
@@ -184,7 +184,7 @@ const fileAndDataLoss = {
         mitigationName: "Making each password unique for every site",
         mitigationDescription: "Using unique passwords can prevent malicious actors from using compromised or stolen passwords to access your resources. " + 
         "If a password is stolen and found by a malicious actor, unique passwords will limit their access to only that service instead of other services that use the same password. " + 
-        "Here is a video that helps explain this idea: <a href='https://www.youtube.com/watch?v=AJQ76iBh4IE'> https://www.youtube.com/watch?v=AJQ76iBh4IE </a>",
+        "Here is a video that helps explain this idea: <a href='https://www.youtube.com/watch?v=AJQ76iBh4IE' target='_blank'> https://www.youtube.com/watch?v=AJQ76iBh4IE </a>",
         skillLevel: "Medium",
         skillLevelNumeric: "2"
     },
@@ -192,7 +192,7 @@ const fileAndDataLoss = {
         mitigationName: "Setting up wireless networks securely",
         mitigationDescription: "Ensuring that malicious actors cannot gain access to your wireleness networks can prevent them from stealing " + 
         "information you would like to remain confidential. " + 
-        "Here is a video that helps explain this idea: <a href='https://www.youtube.com/watch?v=i1ps2SCErTY'> https://www.youtube.com/watch?v=i1ps2SCErTY </a>",
+        "Here is a video that helps explain this idea: <a href='https://www.youtube.com/watch?v=i1ps2SCErTY' target='_blank'> https://www.youtube.com/watch?v=i1ps2SCErTY </a>",
         skillLevel: "Medium",
         skillLevelNumeric: "2"
     },
@@ -200,56 +200,56 @@ const fileAndDataLoss = {
         mitigationName: "Educating other users sharing the same information system",
         mitigationDescription: "It is important that all users of the same information system understand security, because " + 
         "if one user accidentally presents an opportunity for a malicious actor, it can impact all users of that system. " + 
-        "Here is a video that helps explain the importance of this idea: <a href='https://www.youtube.com/watch?v=zYfx4cdFCVA'> https://www.youtube.com/watch?v=zYfx4cdFCVA </a>",
+        "Here is a video that helps explain the importance of this idea: <a href='https://www.youtube.com/watch?v=zYfx4cdFCVA' target='_blank'> https://www.youtube.com/watch?v=zYfx4cdFCVA </a>",
         skillLevel: "Medium",
         skillLevelNumeric: "2"
     },
     socialEngineering: {
         mitigationName: "Being educated on social engineering techniques",
         mitigationDescription: "Understanding how malicious actors may use social techniques is important to stopping these kind of attacks. " + 
-        "Here is a video that helps explain this idea: <a href='https://www.youtube.com/watch?v=v7VTJhkJUUY'> https://www.youtube.com/watch?v=v7VTJhkJUUY </a>",
+        "Here is a video that helps explain this idea: <a href='https://www.youtube.com/watch?v=v7VTJhkJUUY' target='_blank'> https://www.youtube.com/watch?v=v7VTJhkJUUY </a>",
         skillLevel: "Medium",
         skillLevelNumeric: "2"
     },
     secureWifiConnections: {
         mitigationName: "Utilizing Secure Wi-Fi Connections",
         mitigationDescription: "Secure Wi-Fi connections can prevent malicious actors from seeing the data on those connections. " + 
-        "Here is a video that helps explain this idea: <a href='https://www.youtube.com/watch?v=SfFSxThtzhE'> https://www.youtube.com/watch?v=SfFSxThtzhE </a>",
+        "Here is a video that helps explain this idea: <a href='https://www.youtube.com/watch?v=SfFSxThtzhE' target='_blank'> https://www.youtube.com/watch?v=SfFSxThtzhE </a>",
         skillLevel: "Medium",
         skillLevelNumeric: "2"
     },
     complexPasswords: {
         mitigationName: "Making passwords strong (i.e., long and complex)",
         mitigationDescription: "Making strong passwords makes it harder for malicious actors to guess what your passwords are. " + 
-        "Here is a video that helps explain this idea: <a href='https://www.youtube.com/watch?v=h_WZk-_TWh0'> https://www.youtube.com/watch?v=h_WZk-_TWh0 </a>",
+        "Here is a video that helps explain this idea: <a href='https://www.youtube.com/watch?v=h_WZk-_TWh0' target='_blank'> https://www.youtube.com/watch?v=h_WZk-_TWh0 </a>",
         skillLevel: "Medium",
         skillLevelNumeric: "2"
     },
     userAccessControls: {
         mitigationName: "User access controls (i.e. having a separate admin account or differing levels of privilege on a device)",
         mitigationDescription: "Having separate accounts or differing privileges can prevent malicious actors from gaining total control over devices, should the situation ever occur. " + 
-        "Here is a video that gives an example of this mitigation in action: <a href='https://www.youtube.com/watch?v=45zM0mchZ3g'> https://www.youtube.com/watch?v=45zM0mchZ3g </a>",
+        "Here is a video that gives an example of this mitigation in action: <a href='https://www.youtube.com/watch?v=45zM0mchZ3g' target='_blank'> https://www.youtube.com/watch?v=45zM0mchZ3g </a>",
         skillLevel: "Medium",
         skillLevelNumeric: "2"
     },
     antiMalware: {
         mitigationName: "Anti-malware software",
         mitigationDescription: "Anti-malware can help with identifying potentially malicious software on your devices. " + 
-        "Here is a video that helps explain this idea: <a href='https://www.youtube.com/watch?v=67-5bzc_GKE'> https://www.youtube.com/watch?v=67-5bzc_GKE </a>",
+        "Here is a video that helps explain this idea: <a href='https://www.youtube.com/watch?v=67-5bzc_GKE' target='_blank'> https://www.youtube.com/watch?v=67-5bzc_GKE </a>",
         skillLevel: "Medium",
         skillLevelNumeric: "2"
     },
     creditCardInformation: {
         mitigationName: "Being educated on the risk of storing credit card information online",
         mitigationDescription: "Minimizing the amount of sensitive information online can prevent malicious actors from getting access to your information. " + 
-        "Here is a video that helps explain this idea: <a href='https://youtu.be/-ni_PWxrsNo?t=168'> https://youtu.be/-ni_PWxrsNo?t=168 </a>",
+        "Here is a video that helps explain this idea: <a href='https://youtu.be/-ni_PWxrsNo?t=168' target='_blank'> https://youtu.be/-ni_PWxrsNo?t=168 </a>",
         skillLevel: "Low",
         skillLevelNumeric: "1"
     },
     vpnUsage: {
         mitigationName: "Use a VPN (virtual private network) whenever using public WiFi (e.g., coffee shop, airport, hotel) at a minimum",
         mitigationDescription: "Virtual Private Networks prevent others from looking at your network traffic (including potentially confidential information), especially in public places. " + 
-        "Here is a video that helps explain this idea: <a href='https://www.youtube.com/watch?v=_wQTRMBAvzg'> https://www.youtube.com/watch?v=_wQTRMBAvzg </a>", 
+        "Here is a video that helps explain this idea: <a href='https://www.youtube.com/watch?v=_wQTRMBAvzg' target='_blank'> https://www.youtube.com/watch?v=_wQTRMBAvzg </a>", 
         skillLevel: "Medium",
         skillLevelNumeric: "2"
     },
@@ -281,7 +281,8 @@ const surveyJson = {
       {
         "type": "radiogroup",
         "name": "importanceOfCompromise",
-        "title": "How important is mitigating the threat of Compromise of Confidential Information, to you?",
+        "title": "How important is protecting yourself against Compromise of Confidential Information?",
+        "description": "Compromise of Confidential Information can be defined as: The unauthorized disclosure, modification, substitution, or usage of sensitive data by persons not authorized to receive that data.",
         "isRequired": true,
         "choices": [
             {
@@ -301,7 +302,8 @@ const surveyJson = {
       {
         "type": "radiogroup",
         "name": "importanceOfDataFileLoss",
-        "title": "How important is mitigating the threat of Data/File Loss, to you?",
+        "title": "How important is protecting yourself against File/Data Loss?",
+        "description": "File/Data Loss can be defined as: Any process or event that results in a file or data being corrupted, deleted and/or made unreadable by a user and/or software or application.",
         "isRequired": true,
         "choices": [
             {
@@ -373,7 +375,7 @@ function alertResults (sender) {
 
     let dataFileLossRecommendationsHeader = document.createElement("h2");
     dataFileLossRecommendationsHeader.setAttribute("id","dataFileLossRecommendationsHeader");
-    dataFileLossRecommendationsHeader.innerHTML = "Please see below for your personalized security recommendations for the threat of Data/File Loss:";
+    dataFileLossRecommendationsHeader.innerHTML = "Please see below for your personalized security recommendations for the threat of File/Data Loss:";
     // Append the header to the container
     resultsContainerForDataAndFileLoss.append(dataFileLossRecommendationsHeader);
 
@@ -384,7 +386,7 @@ function alertResults (sender) {
 
     let dataFileLossRecommendationsHeaderHigherSkillLevel = document.createElement("h2");
     dataFileLossRecommendationsHeaderHigherSkillLevel.setAttribute("id","dataFileLossRecommendationsHeaderHigherSkillLevel");
-    dataFileLossRecommendationsHeaderHigherSkillLevel.innerHTML = "The following mitigation(s) for Data/File Loss were indicated as above your provided skill level, but have been included here for your visbility:";
+    dataFileLossRecommendationsHeaderHigherSkillLevel.innerHTML = "The following mitigation(s) for File/Data Loss were indicated as above your provided skill level, but have been included here for your visbility:";
     // Append the header to the container
     resultsContainerForDataFileLossHigherSkillLevel.append(dataFileLossRecommendationsHeaderHigherSkillLevel);
 
