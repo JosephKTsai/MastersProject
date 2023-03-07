@@ -2,7 +2,7 @@ Survey
     .StylesManager
     .applyTheme("defaultV2");
 
-// This is the datastructure for the mitigations for the threat of 
+// This is the datastructure for the mitigations for the risk of 
 // compromise of confidential information
 const compromiseOfConfidentialInformation = {
     changingPasswords: {
@@ -134,7 +134,7 @@ const compromiseOfConfidentialInformation = {
     }
 }
 
-// This is the datastructure for the mitigations for the threat of compromise of confidential information
+// This is the datastructure for the mitigations for the risk of compromise of confidential information
 const fileAndDataLoss = {
     havingBackups: {
         mitigationName: "Having back-ups of important data and files",
@@ -352,7 +352,7 @@ function alertResults (sender) {
     let compromiseRecommendationsHeader = document.createElement("h2");
     compromiseRecommendationsHeader.setAttribute("id","compromiseRecommendationsHeader");
 
-    compromiseRecommendationsHeader.innerHTML = "Please see below for your personalized security recommendations for the threat of Compromise of Confidential Information:";
+    compromiseRecommendationsHeader.innerHTML = "Please see below for your personalized security recommendations for the risk of Compromise of Confidential Information:";
 
     // Append the header to the container
     compromiseResultsContainer.append(compromiseRecommendationsHeader);
@@ -375,7 +375,7 @@ function alertResults (sender) {
 
     let dataFileLossRecommendationsHeader = document.createElement("h2");
     dataFileLossRecommendationsHeader.setAttribute("id","dataFileLossRecommendationsHeader");
-    dataFileLossRecommendationsHeader.innerHTML = "Please see below for your personalized security recommendations for the threat of File/Data Loss:";
+    dataFileLossRecommendationsHeader.innerHTML = "Please see below for your personalized security recommendations for the risk of File/Data Loss:";
     // Append the header to the container
     resultsContainerForDataAndFileLoss.append(dataFileLossRecommendationsHeader);
 
